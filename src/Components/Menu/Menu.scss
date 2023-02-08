@@ -1,0 +1,47 @@
+.Menu-container {
+    box-sizing: border-box;
+
+position: absolute;
+width: 185px;
+height: 60px;
+left: calc(50% - 185px/2 - 368.5px);
+top: 40%;
+left: 13%;
+/* Grey-02 */
+
+border: 1px solid #E1E1E1;
+border-radius: 14px 0px 0px 14px;
+
+&__Heading{
+ /* Menus */
+
+
+ position: absolute;
+ width: 54px;
+ height: 34px;
+ left: calc(50% - 54px/2 - 365px);
+ top: 0%;
+ left: 35%;
+ font-family: 'Cairo';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 34px;
+ /* identical to box height */
+ 
+ 
+ /* Primary */
+ 
+ color: #6C5DD3;
+}
+
+}
+#Arrow {
+    position: absolute;
+left: 70%;
+top: 35%;
+transform: rotate(90deg);
+color: #6C5DD3;
+cursor: pointer;
+}
+
