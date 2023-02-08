@@ -5,6 +5,7 @@ const SignUp = () => {
   return (
     <div>
       <button className='SignUp-Button'>SignUp</button>
+      <div><p>Hello world</p></div>
     </div>
   );
 };
