@@ -14,9 +14,10 @@ const Esports = () => {
           alt="Esports-image"
           className="Esports-Container__EsportsImage"
         />
-        <a href="#fakeLink" class="btn gray">Select our Game</a>
-        <a href="#fakeLink" class="btn orange">Register Team  <AiOutlineArrowRight className="Esports-Container__Arrow" /></a>
+        <a href="#fakeLink" className="btn gray">Select our Game</a>
+        <a href="#fakeLink" className="btn orange">Register Team  <AiOutlineArrowRight className="Esports-Container__Arrow" /></a>
       </div>
+    
     </div>
   );
 };

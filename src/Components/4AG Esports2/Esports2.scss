@@ -1,0 +1,102 @@
+.Esports2-Container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 394px;
+    height: 500px;
+    left: 68%;
+    top: 22%;
+    border-radius: 20px;
+    // background-color: rgb(163, 162, 184);
+
+    &__Image{
+        // position: absolute;
+        width: 450px;
+        height: 500px;
+        border-radius: 20px;
+    }
+    &__Para{
+        position: absolute;
+width: 196px;
+height: 90px;
+left: 30%;
+top: -12%;
+        font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 90px;
+/* identical to box height */
+
+/* White */
+
+color: #FFFFFF;
+    }
+    &__BLack-div{
+        position: absolute;
+        left: 95%;
+        top: 0%;
+        height: 100px;
+        width: 48px;
+        background-color: rgb(20, 17, 22);
+        border-radius: 20px;
+    }
+
+    &__Chicken-dinner{
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        left: 4%;
+        top: 35%;
+        
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        /* White */
+        
+        color: #FFFFFF;
+    }
+    &__Prize-container{
+        position: absolute;
+width: 160px;
+height: 55px;
+left: -5%;
+top: 60%;
+
+/* White */
+
+background: #ffffff;
+border-radius: 14px;
+
+    }
+    &__Prize{
+        position: absolute;
+        width: 810px;
+        height: 450px;
+        left: 3%;
+        top: -5%;
+        
+        
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 20px;
+        /* identical to box height */
+        
+        
+        /* DarkPurple */
+        
+        color: #11142D;
+        
+        
+
+    }
+
+}
