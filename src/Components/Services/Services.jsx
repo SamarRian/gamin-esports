@@ -1,6 +1,5 @@
 import { Component } from "react";
 import "./Services.scss";
-import "./Services2.scss";
 import { AiFillThunderbolt,AiTwotoneStar } from "react-icons/ai";
 import { BsShieldFillCheck } from "react-icons/bs";
 import {FaThumbsUp } from "react-icons/fa";
