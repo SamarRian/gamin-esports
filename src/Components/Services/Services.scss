@@ -1,0 +1,244 @@
+.Services-Container {
+    // display: flex;
+    // justify-content: flex-start;
+    margin-top: 50%;
+    margin-left: 5%;
+    
+display: flex;
+// flex-direction: column;
+grid-template-columns: auto auto auto auto;
+gap: 10px;
+// padding: 10px;
+
+
+/* White */
+
+background: #FFFFFF;
+&__item-2{
+    // padding-left: 10px;
+    height: 200px;
+    width: 50%;
+    margin-left: 10%;
+
+}
+&__item-3{
+    height: 200px;
+    width: 50%;
+    margin-left: 50%;
+}
+&__item-4{
+    // position: absolute;
+    height: 200px;
+    width: 50%;
+    margin-left: -40%;
+}
+&__Icon-div{
+    
+    width: 60px;
+height: 60px;
+border-radius: 14px;
+background: #F0EEFF;
+}
+&__Icon-div-2{
+    position: absolute;
+    left: 28%;
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    background: #F0EEFF;
+}
+&__Icon-div-3{
+    position: absolute;
+    left: 53%;
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    background: #F0EEFF;
+}
+&__Icon-div-4{
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+    background: #F0EEFF;
+}
+&--Icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: orange;
+    height: 60px;
+    width: 60px;
+    
+}
+&--Icon-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: orange;
+    height: 55px;
+    width: 60px;
+}
+&--Icon-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: orange;
+    height: 50px;
+    width: 60px;
+}
+&--Icon-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: orange;
+    height: 60px;
+    width: 60px;
+}
+&__Heading{
+    position: absolute;
+width: 177px;
+height: 24px;
+left: 10%;
+top: 103%;
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+
+/* DarkPurple */
+
+color: #11142D;
+}
+&__Heading-2{
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 33%;
+    top: 103%;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    
+    /* DarkPurple */
+    
+    color: #11142D;
+}
+&__Heading-3{
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 57.50%;
+    top: 103%;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    
+    /* DarkPurple */
+    
+    color: #11142D;
+}
+&__Heading-4{
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 81%;
+    top: 103%;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    
+    
+    /* DarkPurple */
+    
+    color: #11142D;
+}
+
+&__Para{
+    position: absolute;
+width: 267px;
+height: 38px;
+left: 10%;
+top: 108%;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+/* Grey-01 */
+
+color: #AAAAAA;
+
+}
+&__Para-2{
+    position: absolute;
+    width: 267px;
+    height: 38px;
+    left: 33%;
+    top: 108%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    /* Grey-01 */
+    
+    color: #AAAAAA;
+    
+}
+&__Para-3{
+    position: absolute;
+    width: 267px;
+    height: 38px;
+    left: 57.50%;
+    top: 108%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    /* Grey-01 */
+    
+    color: #AAAAAA;
+    
+}
+&__Para-4{
+    position: absolute;
+    width: 267px;
+    height: 38px;
+    left: 81%;
+    top: 108%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    /* Grey-01 */
+    
+    color: #AAAAAA;
+    
+}
+
+
+}
