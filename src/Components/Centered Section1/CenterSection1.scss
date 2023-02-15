@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Open+Sans:wght@500;600&family=Poppins&family=Quicksand:wght@700&display=swap');
+
+
+.Main-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -3%;
+  justify-content: center;
+  height: 443px;
+  width: 90%;
+  // background-color: rgb(95, 119, 141);
+  gap: 10px;
+  margin-left: 5%;
+
+  &__1 {
+    height: inherit;
+    width: 700px;
+    border-radius: 14px;
+    &--image {
+      height: inherit;
+      width: inherit;
+      border-radius: 14px;
+    }
+    &--div1 {
+      margin-left: 3%;
+      width: 45%;
+      margin-top: -60%;
+      color: #f2f2f2;
+    }
+    &--heading {
+      font-family: "Cairo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 67px;
+
+      /* DarkPurple */
+
+      color: #f2f2f2;
+    }
+    &--para {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+
+      /* DarkPurple */
+
+      color: #ffffff;
+    }
+  }
+  &__2 {
+    height: inherit;
+    width: 700px;
+    background: rgb(128, 208, 239);
+    border-radius: 14px;
+    overflow: hidden;
+
+    &--circle1 {
+      margin-left: 72%;
+      margin-top: -25%;
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      background-color: #bfdcf9;
+    }
+    &--circle2 {
+      width: 350px;
+      height: 350px;
+      margin-left: -10%;
+      border-radius: 50%;
+      background-color: #bfdcf9;
+    }
+    &--heading2 {
+      font-family: "Cairo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 67px;
+      margin-left: 3%;
+      /* DarkPurple */
+
+      color: #11142d;
+    }
+    &--para2 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+margin-top: -8%;
+      /* DarkPurple */
+
+      color: #11142d;
+    }
+    &--div2{
+        width: 50%;
+        margin-left: 3%;
+    }
+    // &--image2{
+    //   
+    // }
+  }
+  &__Person-Image{
+    height: 200px;
+        width: 200px;
+        border-radius: 10%;
+        border: 4px solid #bfdcf9;
+        margin-left: -20%;
+        margin-top: 15%;
+  }
+}
