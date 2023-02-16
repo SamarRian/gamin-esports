@@ -17,19 +17,19 @@ background: #FFFFFF;
 &__item-2{
     // padding-left: 10px;
     height: 200px;
-    width: 50%;
+    width: 100px;
     margin-left: 10%;
 
 }
 &__item-3{
     height: 200px;
-    width: 50%;
+    width: 100px;
     margin-left: 50%;
 }
 &__item-4{
     // position: absolute;
     height: 200px;
-    width: 50%;
+    width: 100px;
     margin-left: -40%;
 }
 &__Icon-div{
@@ -41,7 +41,7 @@ background: #F0EEFF;
 }
 &__Icon-div-2{
     position: absolute;
-    left: 28%;
+    left: 29%;
     width: 60px;
     height: 60px;
     border-radius: 14px;
@@ -56,6 +56,8 @@ background: #F0EEFF;
     background: #F0EEFF;
 }
 &__Icon-div-4{
+    position: absolute;
+    left: 76%;
     width: 60px;
     height: 60px;
     border-radius: 14px;
@@ -116,7 +118,7 @@ color: #11142D;
     position: absolute;
     width: 177px;
     height: 24px;
-    left: 33%;
+    left: 33.50%;
     top: 104%;
     font-family: 'Cairo';
     font-style: normal;
@@ -189,7 +191,7 @@ color: #AAAAAA;
     position: absolute;
     width: 267px;
     height: 38px;
-    left: 33%;
+    left: 33.50%;
     top: 109%;
     
     font-family: 'Open Sans';
